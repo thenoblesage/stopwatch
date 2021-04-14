@@ -1,0 +1,33 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#time {
+    align-self: center;
+}
+
+.clock {
+    border: 2px solid lightslategray;
+    border-radius: 5px;
+    padding-top: 1em;
+    display: flex;
+    flex-direction: column;
+}
+
+.control {
+    margin: 5px;
+    padding: 3px;
+    font-size: 18px;
+    border: 1px solid lightslategray;
+    border-radius: 3px;
+}
+
+.control:hover {
+    background-color: lightsalmon;
+    color: white;
+}
